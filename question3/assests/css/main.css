@@ -1,0 +1,31 @@
+.cbody{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:400;
+}
+
+.cImgCircle {
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+   
+}
+.cImgArrow{
+    margin-left:5% ;
+    padding:5%;
+    height:60px;
+    width: 60px;
+}
+.cfooterimg{
+   margin-right:0 ;
+   width:20em;
+   height: auto;
+}
+.cAoutP1{
+    color:silver;
+    font-size: 0.75em;
+    
+}
+.cAboutP2{
+    font-size: 0.75em;
+
+}

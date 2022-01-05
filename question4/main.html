@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assests/css/main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <header class="header ">
+        <div class="navbar">
+            <img  src="./assests/img/images.jpg" alt="logo">
+            <a href="#home">Home</a>
+            <a href="#news">Age groups</a>
+            <a href="#news">Destintions</a>
+            <a href="#news">Experiences</a>
+            <a href="#news">Info</a>
+            <a href="#news">Last link</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Dropdown
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            </div> 
+            <a href="#news">Log in</a>
+          </div>
+    </header>
+    <div class="box-blue">
+        <h2>Destination</h2>
+        <p>Home/Destination</p>
+    </div>
+    <div class="row">
+        <h2>Destination</h2>
+        <p>Stay up to date and check out the dealfor this trending destintions</p>
+    </div>
+    <div class="row-img  ">
+        <div class="pic box-shadow">
+            <img src="./assests/img/download.jpg" alt="">
+            <p> london</p>
+        </div>
+        <div class="pic box-shadow">
+            <img src="./assests/img/download.jpg" alt="">
+            <p> london</p>
+        </div>
+        <div class="pic box-shadow">
+            <img src="./assests/img/download.jpg" alt="">
+            <p> london</p>
+        </div>
+        <div class="pic box-shadow">
+            <img src="./assests/img/download.jpg" alt="">
+            <p> london</p>
+        </div>
+        <div class="pic box-shadow ">
+            <img src="./assests/img/download.jpg" alt="">
+            <p> london</p>
+        </div>
+        <div class="pic box-shadow ">
+            <img src="./assests/img/download.jpg" alt="">
+            <p> london</p>
+        </div>
+        <div class="margin-btn"><button class="button">View More</button></div>
+
+    </div>
+
+    <div class="box-blue-footer">
+        <h3>Subscribe to our free new slleter</h3>
+        <form class="form">
+            <input type="text1" id="name" name="name" placeholder="Name">
+            <input type="text2" id="email" name="email"placeholder="Email">
+            <input type="submit" value="Subscribe">
+          </form>
+       
+    </div>
+    <footer>
+    <div class="row-footer clearfix">
+        <div class="col-1">
+            <img src="./assests/img/images.jpg" alt="logo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequuntur reiciendis quas doloremque nobis maiores odio nostrum a voluptate alias. Quod ea omnis sed aliquam rem ipsum dolorum accusamus dicta.</p>
+            
+        </div>
+
+        <div class="col-2">
+            <h4>Book now ... what?</h4>
+            <ol>
+               <li>Lorem,ipsum dolor sit amet consectetur</li> 
+               <li>Lorem,ipsum dolor sit</li> 
+               <li>Lorem, ipsum dolor sit</li> 
+               <li>Lorem, ipsum dolor sit amet consectetur</li> 
+               <li>Lorem, ipsum dolor sit consect</li>
+               <li>Lorem, ipsum dolor sit consectetu</li>
+               <li>Lorem, ipsum dolor sit good</li>
+            </ol>            
+        </div>
+        <div class="col-3">
+            <h4>community</h4>
+            <p> Twiter</p>
+            <p>Instagram</p>
+            <p>facebook</p>
+            <p>Google+</p>
+            <p>Pintrest</p>
+            <p>Email</p>
+
+            
+        </div>
+        <div class="col-4">
+            <h4>Useful Link</h4>
+            <p>adipisicing</p>
+            <p>Perferendis</p>
+            <p>ibero nesciunt</p>
+            <p>libero nesciunt</p>
+            <p>libero nesciunt</p>
+            <p>libero nesciunt</p>
+        </div>
+        
+    </div>
+    <div class="box-blue-end">
+        <h4>Group of young people adipisicing elit///Inventore quae autem nam voluptas!</h4>
+    </div>
+   
+
+</footer>
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+    </script>
+
+</body>
+
+</html>
